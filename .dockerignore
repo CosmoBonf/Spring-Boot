@@ -1,0 +1,19 @@
+# Arquivos que não devem ser copiados para o container Docker
+target/
+!target/*.jar
+.idea/
+*.iml
+*.iws
+.vscode/
+.git/
+.gitignore
+.mvn/
+mvnw
+mvnw.cmd
+README.md
+*.md
+.DS_Store
+node_modules/
+*.log
+.env
+
